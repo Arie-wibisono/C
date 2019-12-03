@@ -3,7 +3,7 @@ int main() {
 	//deklarasi variabel
 	char nama[20], umur[3];
 	printf("Input nama anda : ");
-	scanf("%s", &nama);
+	scanf("%[^\n]s", &nama);
 
 	printf("Input Umur anda : ");
         scanf("%s", &umur);
